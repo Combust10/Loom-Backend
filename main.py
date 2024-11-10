@@ -78,6 +78,4 @@ async def root_request(user: str, message: str):
             ai_response_data = result
             ai_response_code = "COMPLETED"
 
-    
-    
     return {"response_message":ai_message,"response_code":ai_response_code,"response_data":ai_response_data}
